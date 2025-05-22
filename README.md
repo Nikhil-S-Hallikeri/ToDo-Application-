@@ -28,30 +28,6 @@ A complete **To-Do List web application** built using **Spring Boot**, **Thymele
 
 ---
 
-## 📂 Project Structure
-
-src/
-
-├── main/
-
-│ ├── java/com/todoapp/
-
-│ │ ├── controller/ # Web Controllers
-
-│ │ ├── service/ # Business Logic
-
-│ │ ├── model/ # Entity/Model Classes
-
-│ │ └── repository/ # Data Access
-
-│ ├── resources/
-
-│ │ ├── templates/ # Thymeleaf HTML files
-
-│ │ └── application.properties
-
-└── pom.xml
-
 
 2️⃣ Set Up MySQL Database
 
@@ -78,18 +54,3 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 💡 Change username/password based on your local setup.
 
-🌐 Access the App
-
-Visit:
-
-http://localhost:8080/
-
-**From here, you can:**
-
-Add new tasks
-
-View all existing tasks
-
-Toggle completion status
-
-Delete tasks
